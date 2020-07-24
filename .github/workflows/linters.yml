@@ -1,8 +1,4 @@
-linters:
-    flake8:
-    eslint:
-        config: './eslint.config'
-    csslint:
+name: Linters
 
 on: pull_request
 
