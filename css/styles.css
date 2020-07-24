@@ -431,16 +431,20 @@ body {
 /* Form Main Ends */
 
 @media (max-width: 460px) {
+
   .wrapper .form .input-field {
     flex-direction: column;
     align-items: flex-start;
   }
+
   .wrapper .form .input-field label {
     margin-bottom: 5px;
   }
+
   .wrapper .form .input-field .terms {
     flex-direction: row;
   }
+
   .login-navigation {
     display: none;
   }
