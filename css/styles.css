@@ -234,6 +234,31 @@ body {
   cursor: pointer;
 }
 
+/* Hide Text */
+.hide-text-link {
+  text-align: center;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.2;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0077c5;
+  padding-bottom: 2px;
+  padding-top: 3px;
+  cursor: pointer;
+  display: none;
+}
+
+.hide-text {
+  color: #4c4c4c;
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.2;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 22px;
+  display: none;
+}
+
 .form {
   width: 100%;
 }
@@ -411,5 +436,30 @@ body {
   }
   .login-navigation {
     display: none;
+  }
+
+  /* Hide Text */
+  .hide-text-link {
+    text-align: center;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0077c5;
+    padding-bottom: 1px;
+    padding-top: 3px;
+    cursor: pointer;
+    display: block;
+  }
+
+  .hide-text {
+    color: #4c4c4c;
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.2;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 22px;
+    display: block;
   }
 }
