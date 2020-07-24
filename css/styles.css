@@ -417,7 +417,7 @@ body {
   padding: 0;
 }
 
-.footer-links-container #main-footer-link {
+#main-footer-link {
   text-decoration: none;
   color: #0077c5;
 }
