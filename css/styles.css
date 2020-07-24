@@ -420,9 +420,9 @@ body {
   padding: 0;
 }
 
-#main-footer-link1,
-#main-footer-link2,
-#main-footer-link3 {
+#main-footer-link-1,
+#main-footer-link-2,
+#main-footer-link-3 {
   text-decoration: none;
   color: #0077c5;
 }
