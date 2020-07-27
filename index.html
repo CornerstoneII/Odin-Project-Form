@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Intuit Accounts - Sign Up</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <header class="login-wrapper">
+    <div class="login-navigation">
+      <div class="forgot-column">
+        <div id="forgot-text">Already have an Intuit account?</div>
+        <a href="#" id="recovery-link">I forgot my user ID or Password</a>
+      </div>
+      <div class="login-column">
+        <button id="login" class="login-submit" type="button">
+          <span class="lock-img"></span>
+          Sign In
+        </button>
+      </div>
+    </div>
+  </header>
+  <nav class="main-header" id="main-header">
+    <div class="logo-container">
+      <a href="#" id="main-logo" class="logo-brand"></a>
+    </div>
+  </nav>
+  <main class="form-main">
+    <div class="sub-header">
+      <div class="logo-outside-card">
+        <header class="mini-main-header">
+          <div class="mini-logo-container">
+            <ul class="logo-list">
+              <li class="mint-icon common-icons"></li>
+              <li class="mint-text text-class1 common-icons"></li>
+              <li class="qbooks-icon common-icons"></li>
+              <li class="qbooks-text text-class1 common-icons"></li>
+              <li class="ttax-icon common-icons"></li>
+              <li class="ttax-text text-class1 common-icons"></li>
+            </ul>
+          </div>
+        </header>
+      </div>
+    </div>
+    <section class="wrapper">
+      <div class="title">
+        <span class="title-head">Create an Intuit account</span>
+      </div>
+      <p class="text-title">
+        One account for everything Intuit, including Mint.
+      </p>
+      <div class="div-link">
+        <a href="#" class="text-link">Learn more</a>
+      </div>
+      <div class="hide-text">
+        Already have an account? <span class="hide-text-link">Sign In</span>
+      </div>
+
+      <form class="form">
+        <label for="email">Email</label>
+        <div class="input-field">
+          <input id="email" type="email" class="input" autocomplete="off" />
+        </div>
+
+        <label for="phone">Phone (recommended)</label>
+        <div class="input-field">
+          <input id="phone" type="tel" class="input" autocomplete="off" />
+        </div>
+
+        <div class="input-field terms">
+          <label class="check">
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <p>Verify with text message (most secure)</p>
+        </div>
+
+        <label for="password">Password</label>
+        <div class="input-field">
+          <input id="password" type="password" class="input" />
+        </div>
+
+        <label for="confirm-password">Confirm Password</label>
+        <div class="input-field">
+          <input id="confirm-password" type="password" class="input" />
+        </div>
+
+        <div class="input-field">
+          <button type="submit" class="btn">
+            <span class="lock-img"></span> Create Account
+          </button>
+        </div>
+      </form>
+
+      <footer class="term-container">
+        <span class="terms-text">
+          By clicking Create account, you agree to our <br />
+          <a href="#" class="term-link">Terms</a> and have read and acknowledge
+          our <a href="#" class="term-link">Privacy Statement</a>.
+        </span>
+      </footer>
+
+      <footer class="captcha-container">
+        <span class="captcha-text">
+          Invisible reCAPTCHA by Google
+          <a class="term-link">Privacy Policy</a> and
+          <a class="term-link">Terms of Use</a>.
+        </span>
+      </footer>
+    </section>
+
+    <footer class="main-footer">
+      <div class="footer-container">
+        <div class="footer-links-row">
+          <ul class="footer-links-container">
+            <li><a href="#" id="legal">Legal</a></li>
+            <li><a href="#" id="privacy">Privacy</a></li>
+            <li><a href="#" id="security">Security</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright-container" id="copyright-container">
+        <span class="copyright-text">
+          © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
+          TurboTax, ProConnect and Mint are registered trademarks of Intuit
+          Inc. <br />
+          Terms and conditions, features, support, pricing, and service
+          options subject to change without notice.
+        </span>
+      </div>
+    </footer>
+  </main>
+</body>
+
+</html>
