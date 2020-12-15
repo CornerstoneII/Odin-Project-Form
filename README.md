@@ -6,10 +6,9 @@
 
 ![screenshot](./images/clone-page.jpg)
 
-### ![You can find the original project specification at]: (https://www.theodinproject.com/courses/html5-and-css3/lessons/html-forms)
+![Project-Specification](https://www.theodinproject.com/courses/html5-and-css3/lessons/html-forms)
 
-
-### ![Live Demo]: (https://raw.githack.com/CornerstoneII/Odin-Project-Form/Signup-Clone/index.html)
+![Demo](https://raw.githack.com/CornerstoneII/Odin-Project-Form/Signup-Clone/index.html)
 
 ## Built With
 
