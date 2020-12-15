@@ -2,13 +2,13 @@
 
 # HTML FORMS
 
-### This project consists of building an HTML document that matches the appearance of mint.com’s signup page
+## This project consists of building an HTML document that matches the appearance of mint.com’s signup page
 
 ![screenshot](./images/clone-page.jpg)
 
-![Project-Specification](https://www.theodinproject.com/courses/html5-and-css3/lessons/html-forms)
+[Project-Specification](https://www.theodinproject.com/courses/html5-and-css3/lessons/html-forms)
 
-![Demo](https://raw.githack.com/CornerstoneII/Odin-Project-Form/Signup-Clone/index.html)
+[Demo](https://raw.githack.com/CornerstoneII/Odin-Project-Form/Signup-Clone/index.html)
 
 ## Built With
 
